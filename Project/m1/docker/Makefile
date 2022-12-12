@@ -11,7 +11,7 @@ attach-to-logs:
 	docker-compose logs -f mongo
 
 stop:
-	docker-compose down
+	docker-compose down -v
 
 .PHONY: clean
 clean:

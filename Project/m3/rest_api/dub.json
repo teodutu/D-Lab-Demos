@@ -10,5 +10,6 @@
     },
     "description": "A simple REST API for the virust total db conn",
     "license": "proprietary",
-    "name": "rest_api"
+    "name": "rest_api",
+    "dflags": ["-J=./source/templates"]
 }
